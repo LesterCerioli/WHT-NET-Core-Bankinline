@@ -1,0 +1,65 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {}
+  },
+  "libraries": {},
+  "projectFileDependencyGroups": {
+    "net6.0": []
+  },
+  "packageFolders": {
+    "/home/lester/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/home/lester/Documents/repositories/GitHub/Personal/WHT/src/Infrastructure/Admissional Register/WHT.AdmissionalRegister.Infrastructure/WHT.AdmissionalRegister.Infrastructure.csproj",
+      "projectName": "WHT.AdmissionalRegister.Infrastructure",
+      "projectPath": "/home/lester/Documents/repositories/GitHub/Personal/WHT/src/Infrastructure/Admissional Register/WHT.AdmissionalRegister.Infrastructure/WHT.AdmissionalRegister.Infrastructure.csproj",
+      "packagesPath": "/home/lester/.nuget/packages/",
+      "outputPath": "/home/lester/Documents/repositories/GitHub/Personal/WHT/src/Infrastructure/Admissional Register/WHT.AdmissionalRegister.Infrastructure/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/home/lester/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.301/RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

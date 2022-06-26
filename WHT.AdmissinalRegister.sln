@@ -7,6 +7,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{5026F150-72F
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WHT.Module.AdmissionalRegister", "src\WHT.Module.AdmissionalRegister\WHT.Module.AdmissionalRegister.csproj", "{86802579-A7A7-4C73-90A4-79405DF7ABA7}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{823EFBD7-8AB0-428B-AABB-6FB41ECA3540}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Admissional Register", "Admissional Register", "{7CBE1CC7-6DF6-4B79-B40D-AD5C583B6FB1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WHT.AdmissionalRegister.Infrastructure", "src\Infrastructure\Admissional Register\WHT.AdmissionalRegister.Infrastructure\WHT.AdmissionalRegister.Infrastructure.csproj", "{1911D710-8771-45B9-99E7-75B906E573DB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,8 +26,15 @@ Global
 		{86802579-A7A7-4C73-90A4-79405DF7ABA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{86802579-A7A7-4C73-90A4-79405DF7ABA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{86802579-A7A7-4C73-90A4-79405DF7ABA7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1911D710-8771-45B9-99E7-75B906E573DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1911D710-8771-45B9-99E7-75B906E573DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1911D710-8771-45B9-99E7-75B906E573DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1911D710-8771-45B9-99E7-75B906E573DB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{86802579-A7A7-4C73-90A4-79405DF7ABA7} = {5026F150-72F5-44B4-AB2C-37749DA834C3}
+		{823EFBD7-8AB0-428B-AABB-6FB41ECA3540} = {5026F150-72F5-44B4-AB2C-37749DA834C3}
+		{7CBE1CC7-6DF6-4B79-B40D-AD5C583B6FB1} = {823EFBD7-8AB0-428B-AABB-6FB41ECA3540}
+		{1911D710-8771-45B9-99E7-75B906E573DB} = {7CBE1CC7-6DF6-4B79-B40D-AD5C583B6FB1}
 	EndGlobalSection
 EndGlobal
